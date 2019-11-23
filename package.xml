@@ -12,12 +12,12 @@
   <url>http://www.ros.org/wiki/mqtt_bridge</url>
 
   <buildtool_depend>catkin</buildtool_depend>
-  <exec_depend>rospy</exec_depend>
-  <exec_depend>rosbridge_library</exec_depend>
-  <exec_depend>std_msgs</exec_depend>
-  <!-- <exec_depend>python-inject-pip</exec_depend> -->
-  <!-- <exec_depend>python-msgpack</exec_depend> -->
-  <!-- <exec_depend>python-paho-mqtt-pip</exec_depend> -->
+  <depend>rospy</depend>
+  <depend>rosbridge_library</depend>
+  <depend>std_msgs</depend>
+  <depend>python-paho-mqtt-pip</depend>
+  <depend>python-inject-pip</depend>
+  <depend>python-pymongo</depend>
 
   <export>
   </export>
